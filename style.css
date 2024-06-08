@@ -4,15 +4,17 @@ th{
     font-size: 25px;
     font-style: oblique;
     
+    
 }
 table{
    border-collapse: collapse;
 }
 .titulo{
     font-size: 30px;
-    color:rgb(74, 23, 155);
+    color:rgb(12, 2, 29);
     font-weight:bolder;
     font-style:inherit;
+    font-family:cursive;
     
 }
 .subtitulo{
@@ -26,9 +28,10 @@ table{
     flex-direction: column;
     align-items: center;
     background-color:bisque;
+    display: flex;
  }
  .img-1{
-    border-radius: 25px;
+    border-radius: 15px;
  }
  #especial{
     font-size: 30px;
@@ -36,12 +39,21 @@ table{
  }
  h3{
    
-   background-color: rgb(33, 20, 150);
+   background-color: rgb(17, 1, 13);
    margin-bottom: 10px;
  }
  p{
    font-size: 20px;
    background-color: coral;
    padding: 100px;
+   border-radius: 10px;
  }
- 
+ @media (width<=768px) {
+   
+   .titulo{
+       font-size: 3em;
+   }
+   .subtitulo{
+       font-size: 2em;
+   }
+}
