@@ -1,13 +1,18 @@
 th{
     background-color: rgb(99, 156, 241);
     color: black;
-    font-size: 25px;
+    font-size: 19px;
     font-style: oblique;
     
     
 }
 table{
+   font-size: 0.9em;
+   table-layout: fixed;
+   width: 100%;
    border-collapse: collapse;
+   border: 5px solid rgb(37, 8, 119);
+
 }
 .titulo{
     font-size: 30px;
